@@ -1,0 +1,34 @@
+logs
+*.log
+npm-debug.log*
+*.rdb
+dump.rdb
+pids
+*.pid
+*.seed
+.idea
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+ehthumbs.db
+Icon?
+Thumbs.db
+lib-cov
+coverage
+.grunt
+.lock-wscript
+
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Environment variables
+.env
+*.env
