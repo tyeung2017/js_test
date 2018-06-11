@@ -1,3 +1,5 @@
+// for 404
+
 const notFound = (req, res) => {
   res.status(404).send('Not Found');
 };

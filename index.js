@@ -13,3 +13,4 @@ app.all('*', notFound);
 
 app.listen(PORT, () => console.log(`Magic happens at ${PORT}`));
 
+module.exports = app;

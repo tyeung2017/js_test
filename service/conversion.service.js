@@ -1,3 +1,5 @@
+// this function is for converting the balance from API to ETH
+
 module.exports = (value) => {
   const EtherToWei = 10 ** 18;
 

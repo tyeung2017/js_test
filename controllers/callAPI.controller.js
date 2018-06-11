@@ -1,6 +1,7 @@
 const axios = require('axios');
 const conversion = require('../service/conversion.service');
 
+// this is for calling external API using address from GET params
 const callAPI = async (req, res) => {
   const { address } = req.params;
 
